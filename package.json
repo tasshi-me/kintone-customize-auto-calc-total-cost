@@ -1,0 +1,56 @@
+{
+  "name": "kintone-devcamp-boost-2023",
+  "version": "1.0.0",
+  "description": "kintoneカスタマイズ開発テンプレート。2023年のkintone devCamp Boost!用です。",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "build": "vite build",
+    "upload": "dotenv kintone-customize-uploader ./customize-manifest.json",
+    "start": "run-p -l \"build -- --watch\" \"upload -- --watch\"",
+    "test": "vitest",
+    "lint": "run-p -l lint:*",
+    "lint:eslint": "eslint --ext .js,.mjs,cjs,.ts,.mts,.cts ./",
+    "lint:prettier": "prettier --check '**/*.{json,md,yaml,yml}'",
+    "fix": "run-p -l fix:*",
+    "fix:eslint": "run-s \"lint:eslint -- --fix\"",
+    "fix:prettier": "run-s \"lint:prettier -- --write\"",
+    "setup": "run-s setup:*",
+    "setup:dotenv": "zx ./scripts/init-dotenv.mjs",
+    "generate:dts": "dotenv zx ./scripts/generate-dts.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mshrtsr/kintone-devCamp-Boost-2023.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "kintone"
+  ],
+  "author": "Masaharu TASHIRO <masatsr.kit@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mshrtsr/kintone-devCamp-Boost-2023/issues"
+  },
+  "homepage": "https://github.com/mshrtsr/kintone-devCamp-Boost-2023#readme",
+  "devDependencies": {
+    "@cybozu/eslint-config": "^20.0.1",
+    "@kintone/customize-uploader": "^7.0.4",
+    "@kintone/dts-gen": "^7.0.4",
+    "@types/node": "^20.5.0",
+    "dotenv-cli": "^7.2.1",
+    "eslint": "^8.46.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.8.8",
+    "rollup-plugin-license": "^3.0.1",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.9",
+    "vitest": "^0.34.2",
+    "zx": "^7.2.3"
+  },
+  "dependencies": {
+    "@kintone/rest-api-client": "^4.1.0"
+  }
+}
