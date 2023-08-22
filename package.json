@@ -1,7 +1,7 @@
 {
-  "name": "kintone-devcamp-boost-2023",
+  "name": "kintone-customize-auto-calc-total-cost",
   "version": "1.0.0",
-  "description": "kintoneカスタマイズ開発テンプレート。2023年のkintone devCamp Boost!用です。",
+  "description": "案件管理アプリのレコード追加・更新時に顧客管理アプリの総費用を自動更新するkintoneカスタマイズ。2023年のkintone devCamp Boost!用です。",
   "private": true,
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mshrtsr/kintone-devCamp-Boost-2023.git"
+    "url": "git+https://github.com/mshrtsr/kintone-customize-auto-calc-total-cost.git"
   },
   "files": [
     "dist"
@@ -32,9 +32,9 @@
   "author": "Masaharu TASHIRO <masatsr.kit@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mshrtsr/kintone-devCamp-Boost-2023/issues"
+    "url": "https://github.com/mshrtsr/kintone-customize-auto-calc-total-cost/issues"
   },
-  "homepage": "https://github.com/mshrtsr/kintone-devCamp-Boost-2023#readme",
+  "homepage": "https://github.com/mshrtsr/kintone-customize-auto-calc-total-cost#readme",
   "devDependencies": {
     "@cybozu/eslint-config": "^20.0.1",
     "@kintone/customize-uploader": "^7.0.4",
