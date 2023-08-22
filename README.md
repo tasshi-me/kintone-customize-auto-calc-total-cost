@@ -5,7 +5,7 @@ kintone devCamp Boost! (2023 年) のセッションで作成した kintone カ�
 |                        |                                                                   |
 | ---------------------- | ----------------------------------------------------------------- |
 | イベントホームページ   | https://page.cybozu.co.jp/-/devcampboost/                         |
-| セッション資料         | TBD                                                               |
+| セッション資料         | https://speakerdeck.com/tasshi/kintone-devcamp-boost-2023         |
 | テンプレートリポジトリ | https://github.com/mshrtsr/kintone-devCamp-Boost-2023/            |
 | 完成サンプルリポジトリ | https://github.com/mshrtsr/kintone-customize-auto-calc-total-cost |
 
