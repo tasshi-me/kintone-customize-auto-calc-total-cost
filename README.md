@@ -2,10 +2,10 @@
 
 kintone devCamp Boost! (2023 年) のセッションで作成した kintone カスタマイズの完成サンプルです。
 
-|                        |                                                                   |
-| ---------------------- | ----------------------------------------------------------------- |
-| イベントホームページ   | https://page.cybozu.co.jp/-/devcampboost/                         |
-| セッション資料         | https://speakerdeck.com/tasshi/kintone-devcamp-boost-2023         |
+|                        |                                                                     |
+| ---------------------- | ------------------------------------------------------------------- |
+| イベントホームページ   | https://page.cybozu.co.jp/-/devcampboost/                           |
+| セッション資料         | https://speakerdeck.com/tasshi/kintone-devcamp-boost-2023           |
 | テンプレートリポジトリ | https://github.com/tasshi-me/kintone-devCamp-Boost-2023/            |
 | 完成サンプルリポジトリ | https://github.com/tasshi-me/kintone-customize-auto-calc-total-cost |
 
