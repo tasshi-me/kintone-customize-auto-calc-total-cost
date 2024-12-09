@@ -36,7 +36,7 @@
   },
   "homepage": "https://github.com/tasshi-me/kintone-customize-auto-calc-total-cost#readme",
   "devDependencies": {
-    "@cybozu/eslint-config": "^20.0.1",
+    "@cybozu/eslint-config": "^23.0.0",
     "@kintone/customize-uploader": "^7.0.5",
     "@kintone/dts-gen": "^7.0.5",
     "@types/node": "^20.17.9",
